@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GroupController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StationController.cs" />
     <Compile Include="Controllers\TimeSlotController.cs" />
@@ -180,8 +181,8 @@
     <Content Include="Views\Account\ChangePasswordSuccess.cshtml" />
     <Content Include="Views\Account\LogOn.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\View.cshtml" />
+    <Content Include="Views\Home\Help.cshtml" />
+    <Content Include="Views\Home\Schedules.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_LogOnPartial.cshtml" />
@@ -205,6 +206,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Import.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Group\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Group\GridData.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Group\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\TimeSlot\Index.cshtml" />
